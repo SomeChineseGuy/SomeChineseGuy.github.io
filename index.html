@@ -1,1 +1,241 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Fonts from Font Awsome -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- Vegas slider -->
+		<link rel="stylesheet" href="css/vegas.min.css">
+		<!-- Styles -->
+		<link rel="stylesheet" href="sass/style.scss">
+  </head>
+  <body>
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+				<div class="container">
+						<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+								</button>
+						</div>
+						<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav" id="main-menu">
+										<li><a href="#page-skills">Skills</a>
+										</li>
+										<li><a href="#page-portfolio">Portfolio</a>
+										</li>
+										<li><a href="#page-contact">Contact</a>
+										</li>
+								</ul>
+						</div>
+						<!--/.nav-collapse -->
+				</div>
+		</div>
+
+		<section id="page-home" class="page-home">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="home-page">
+
+					</div>
+				</div>
+			</div>
+    </section>
+
+		<section class="design-quotes">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-lg-4 quote-1">
+						<h3 class="sub-heading quote-name"> Paul Cookson </h3>
+						<div class="space"></div>
+						<p class="quote"> "Websites should look good from the inside and out." </p>
+					</div>
+					<div class="col-md-4 col-lg-4 quote-2">
+						<h3 class="sub-heading quote-name"> Steve Krug </h3>
+						<div class="space"></div>
+						<p class="quote"> “The problem is there are no simple “right” 
+							answers for most Web design questions (at least not for the 
+							important ones). What works is good, integrated design that 
+							fills a need—carefully thought out, well executed, and tested.” </p>
+					</div>
+					<div class="col-md-4 col-lg-4 quote-3">
+						<h3 class="sub-heading quote-name"> Antoine de Saint-Exupéry </h3>
+						<div class="space"></div>
+						<p class="quote">  “A designer knows he has achieved perfection not 
+							when there is nothing left to add, but when there is nothing left 
+							to take away.” </p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="page-skills" id="page-skills">
+			<div class="container">
+				<div class="row">
+					<h1 class="title"> Skills </h1>
+					<div class="space-2"></div>
+					<div class="col-sm-3">
+						<h3>Ruby</h3>
+						<h3>Rails </h3>
+						<h3>Postgres</h3>
+						<h3>Mocha </h3>
+					</div>
+					<div class="col-sm-3">
+						<h3>NodeJS</h3>
+						<h3>ReactJS</h3>
+						<h3>Ajax</h3>
+						<h3>jQuery</h3>
+					</div>
+					<div class="col-sm-3">
+						<h3>MongoDB </h3>
+						<h3>Webstockets</h3>
+						<h3>EJS </h3>
+						<h3>ActiveRecord </h3>
+					</div>
+					<div class="col-sm-3">
+						<h3>CSS/SASS </h3>
+						<h3>HTML </h3>
+						<h3>JavaScript </h3>
+						<h3>GIT </h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="page-projects" id="page-projects">
+			<div class="container">
+				<div class="row">
+					<h1 class="title"> Profolio </h1>
+					<div class="space-2 area"></div>
+						<div class="desc col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<h2 class="sub-heading"> <a href="https://github.com/SomeChineseGuy/Final-Under-Instruction">
+								Under Construction</a></h2>
+							<div class="space"></div>
+							<p> 
+									Under Construction is a site for all DIY lovers. Users can 
+									create there own DIY projects or post a link to an existing 
+									one which will return information based on the link. In the spirit
+									of DIY this site was completely designed from the ground up without
+									the aid of Bootstrap or Foundation.
+							</p>
+							<h3 class="tech-stack">Technology Stack </h3>
+							<p>
+									Rails, Postgres, Ajaxs, jQuery
+							</p>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<img src="img/projects/DIY.gif" alt="DIY" class="project-pic right-pic">
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<hr>
+						</div>
+					<div class="desc pull-right col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<h2 class="sub-heading"><a href="https://github.com/SomeChineseGuy/Project_CardGame">
+							Gin Rummy</a> </h2>
+						<div class="space"></div>						
+							<p> 
+									A remake of the classic card game Gin Rummy. Two players race to see who can 
+									discard their hands first. On this project I uses SASS to render the
+									cards and create fluid animation. We also wrote Mocha tests for all the function
+									which greatly reduced our time spent debugging.
+							</p>
+							<h3 class="tech-stack">Technology Stack </h3>
+							<p> 
+								Javascript, Handlebars JS, SASS, Websockets IO, ExpressJS, Mocha Test
+							</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<img src="img/projects/Gin-Rummy.gif" alt="gin-rummy" class="project-pic left-pic">
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="desc col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<h2 class="sub-heading"><a href="https://github.com/SomeChineseGuy/jungle-rails">
+						Jungle</a> </h2>
+						<div class="space"></div>
+						<p> 
+								Jungle e-commerce is an example of how I picked up an unfamiliar language and 
+								run with it. In Jungle customers are able to make purchases and leave reviews 
+								about the product. An email will be sent out with every order.
+						</p>
+						<h3 class="tech-stack">Technology Stack </h3>
+						<p> Ruby on Rails, Sass, Stripe, Postgres, Bootstrap, Rspec </p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<img src="img/projects/jungles.gif" alt="jungles" class="project-pic right-pic">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<hr> 	
+					</div>
+					<div class="desc pull-right col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<h2 class="sub-heading"><a href="https://github.com/SomeChineseGuy/ChattyApp">
+						Chatty App</a> </h2>
+						<div class="space"></div>
+							<p> 
+									A live chat application where anyone can join and chat with one another.  
+									An example of learning a new framework and building on it. Users can chat 
+									in real time and there's a display that shows all online users.
+							</p>
+							<h3 class="tech-stack">Technology Stack </h3>
+							<p>React, Javascript, Websocket, SASS</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<img src="img/projects/chatty-app.gif" alt="chatty-app" class="project-pic left-pic">
+					</div>
+				</div>
+				<div class="desc col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<h2 class="sub-heading"><a href="https://github.com/SomeChineseGuy/tweetr">
+						Tweeter </a></h2>
+					<div class="space"></div>
+					<p> 
+							Tweeter is a single-page Twitter clone. Users are able to post 
+							messages of up to 140 characters, and browse through the list of posts from 
+							different users. This app I incorporated  HTML, CSS, JS, jQuery and AJAX on the front-end, 
+							and Node, Express and MongoDB on the back-end. 
+					</p>
+					<h3 class="tech-stack">Technology Stack </h3>
+					<p>ExpressJS, CSS, JS, jQuery, MongoDB, AJAX</p>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<img src="img/projects/Tweetr.gif" alt="Tweetr" class="project-pic right-pic">
+				</div>
+			</div>
+		</section>
+
+		<section class="profile">
+				<div class="container">
+					<div>
+	
+					</div>
+				</div>
+			</section>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" 
+		crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" 
+		crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" 
+		crossorigin="anonymous"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/vegas.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
