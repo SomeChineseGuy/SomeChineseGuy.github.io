@@ -92,11 +92,6 @@ hr {
   width: 100%;
 }
 
-.main-page-pic {
-  height: 600px;
-  width: 100%
-}
-
 
 /* Design Quotes */
 .design-quotes {
@@ -167,6 +162,26 @@ hr {
   font-size: 30px;
   margin-top: 20px;
 }
-.fa {
+.fa-file-text,
+.fa-linkedin-square,
+.fa-github {
   color: white;
+}
+
+.white {
+  color:white;
+}
+
+.size-1 {
+  font-size: 7em;  
+}
+
+.size-2 {
+  font-size: 2em;
+}
+
+
+/* Carousel */
+.page-welcome {
+  height: 700px;
 }
