@@ -94,24 +94,12 @@ hr {
   width: 100%;
 }
 
-
-/* Design Quotes */
-.design-quotes {
+/* Contact */
+.contact {
   background-color: rgb(247, 247, 247);
 }
 
-.sub-heading {
-  font-size: 20px;
-  text-align: center;
-}
 
-.quote {
-  padding: 0 20px;
-  font-size: 16px;
-  margin: 0 0 10px;
-  text-align: center;
-  font-size: 1.5em;
-}
 
 /* Projects  */
 .project-pic {
@@ -136,7 +124,7 @@ hr {
 }
 
 
-/* Profile/About me */
+/* Profile */
 .profile-pic {
   border-radius: 50%;
   width: 250px;
@@ -181,6 +169,25 @@ hr {
 .size-2 {
   font-size: 2em;
 }
+
+/* Design Quotes */
+.design-quotes {
+  background-color: white;
+}
+
+.sub-heading {
+  font-size: 20px;
+  text-align: center;
+}
+
+.quote {
+  padding: 0 20px;
+  font-size: 16px;
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
 
 
 /* Carousel */
