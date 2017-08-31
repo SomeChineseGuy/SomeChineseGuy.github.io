@@ -88,9 +88,13 @@ hr {
 
 /* Main Home */
 .home-page {
-  background-color: aquamarine;
   height: 600px;
-  weight: 100%;
+  width: 100%;
+}
+
+.main-page-pic {
+  height: 600px;
+  width: 100%
 }
 
 
@@ -128,7 +132,7 @@ hr {
   font-size: 15px;
 }
 
-/* Profile */
+/* Profile/About me */
 .profile-pic {
   border-radius: 50%;
   width: 150px;
@@ -146,4 +150,12 @@ hr {
 
 .profile .container {
   display: grid;
+}
+
+.btn {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.fa {
+  color: white;
 }
