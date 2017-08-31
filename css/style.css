@@ -82,6 +82,10 @@ hr {
   background-color: white;
 }
 
+.navbar-header {
+  background-color: white;
+}
+
 /* Main Home */
 .home-page {
   background-color: aquamarine;
@@ -136,7 +140,7 @@ hr {
 
 .profile {
   background-color: #B1FFE3;
-  height: 400px;
+  min-height: 400px;
   display: grid;
 }
 
