@@ -5,18 +5,18 @@ a:link,a:visited,.navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus,a:hover,a:active,.navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:hover, 
 .navbar-default .navbar-nav>.active>a:focus{
-	color:#7FFFD2;
+	color:#7dfeec;
 }
 
 .spacer,.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus,#grid .mix .overlay {
 
-background: #7FFFD2;
+background: #7dfeec;
 }
 
 
 
 .btn.btn-default:hover,
 .btn.btn-default:active{
-    color:#7FFFD2;
+    color:#7dfeec;
 }
 
