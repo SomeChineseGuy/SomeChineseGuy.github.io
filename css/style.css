@@ -19,6 +19,8 @@ h1 {
 }
 
 
+
+
 /* Spacers */
 
 .space {
@@ -184,4 +186,73 @@ hr {
 /* Carousel */
 .page-welcome {
   height: 700px;
+}
+
+.slider-controls {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.slider-controls li {
+    list-style: none;
+}
+#page-welcome:hover .slider-controls {
+    opacity: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.slider-controls li a {
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.next {
+    background: url("../img/next.png");
+    margin-right: 70px;
+    right: 0;
+    opacity: 0.3;
+}
+.prev {
+    background: url("../img/prev.png");
+    margin-left: 70px;
+    left: 0;
+    opacity: 0.3;
+}
+.next:hover, .prev:hover {
+    opacity: 1;
+}
+
+
+@media(max-width:992px) {
+  #page-about .profile-pic {
+      margin: 0 auto 20px auto;
+  }
+}
+@media (max-width: 479px) {
+  #page-welcome header h1 {
+      font-size: 3.5em;
+  }
+  #page-welcome header p {
+      font-size: 1em;
+      line-height: 3em;
+  }
+
+  .container p {
+      font-size: 1.2em;
+  }
+  #page-skills {
+      text-align: center;
+  }
+  #page-profile .profile {
+      margin: 0 auto 20px auto;
+  }
 }
