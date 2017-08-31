@@ -13,18 +13,7 @@ a:link,a:visited,.navbar-default .navbar-nav>li>a:hover,
 background: #2ecc71;
 }
 
-#page-contact{
-	background: #2ecc71;
-	color:#fff;
-}
 
-#page-contact .spacer{
-	background: #fff;
-}
-
-#page-contact .section-title{
-	color:#fff;
-}
 
 .btn.btn-default:hover,
 .btn.btn-default:active{
