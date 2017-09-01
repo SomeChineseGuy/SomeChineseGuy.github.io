@@ -19,8 +19,6 @@ h1 {
 }
 
 
-
-
 /* Spacers */
 
 .space {
@@ -171,8 +169,8 @@ hr {
 }
 
 /* Design Quotes */
-.design-quotes {
-  background-color: white;
+.design-quote {
+  background-color: #f7f7f7;
 }
 
 .sub-heading {
