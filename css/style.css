@@ -27,7 +27,6 @@ h1 {
 
 
 /* Spacers */
-
 .space {
     width: 45px;
     height: 2px;
@@ -182,7 +181,31 @@ hr {
     margin-left: -239px;
     margin-top: -94.5px;
     z-index: 10;
+    color: white;
+    text-align: center;
 }
+
+.personal-info h1 {
+    font-size: 7em;
+}
+
+.personal-info p {
+    font-size: 2em;
+}
+
+@media (max-width: 575.98px) {
+    .personal-info {
+        margin-left: -106px;
+    }
+    .personal-info h1 {
+        font-size: 3.5em;
+    }
+    .personal-info p {
+        font-size: 1em;
+        line-height: 3em;
+    }
+  }
+  
 
 .bubble-container {
     position: relative;
@@ -243,6 +266,62 @@ hr {
     width: 280px;
     left: 60%;
     top: 20%;
+}
+
+@media (max-width: 575.98px) {
+    .bubble {
+        border-radius: 30px;
+    }
+
+    .teal {
+        background: #7FFFD3;
+        height: 150px;
+        width: 150px;
+        left: 20%;
+        border-radius: 38px;
+        top: 10%;
+    }
+    
+    .red {
+        background: #ff837e;
+        height: 90px;
+        width: 90px;
+        left: 75%;
+        top: 25%;
+    }
+    
+    .green {
+        background: #89d793;
+        height: 160px;
+        width: 160px;
+        top: 50%;
+        left: 70%;
+        border-radius: 50px;
+    }
+    
+    .blue {
+        background: #76b9fb;
+        height: 200px;
+        width: 200px;
+        top: 40%;
+        left: 5%;
+    }
+    
+    .gold {
+        background: #beaa7e;
+        height: 120px;
+        width: 120px;
+        top: 40%;
+        left: 40%;
+    }   
+    
+    .grey {
+        background: #393e46;
+        height: 140px;
+        width: 140px;
+        left: 60%;
+        top: 20%;
+    }
 }
 
 
@@ -355,7 +434,7 @@ article .image-container:hover .tablet-image {
 .tablet-image.landscape {
     transform: rotate(270deg);
     left: 11%;
-    top: 20%;
+    top: 20.9%;
     transition: transform 1.5s ease;
 }
 
@@ -383,7 +462,7 @@ article .image-container:hover .mobile-image {
 .mobile-image.landscape {
     transform: rotate(270deg);
     left: 68%;
-    top: 40.5%;
+    top: 37.7%;
 }
 
 article .image-container:hover .mobile-image.landscape {
@@ -392,7 +471,7 @@ article .image-container:hover .mobile-image.landscape {
 
 .mobile-image.right {
     left: 74%;
-    top: 29.25%;
+    top: 28.25%;
 }
 
 article .image-container:hover .mobile-image.right {
@@ -485,7 +564,7 @@ article .image-container:hover .mobile-image.right {
 
 @media(max-width:575.98px) {
     #smart-attend .mobile-image {
-        top: 24.25%;
+        top: 23.25%;
     }
 }
 
@@ -523,7 +602,7 @@ article .image-container:hover .mobile-image.right {
 
 @media(max-width:575.98px) {
     #freeport .mobile-image {
-        top: 31.5%;
+        top: 28.5%;
     }
 }
 
@@ -593,18 +672,6 @@ article .image-container:hover .mobile-image.right {
   color: white;
 }
 
-.white {
-  color:white;
-}
-
-.size-1 {
-  font-size: 7em;  
-}
-
-.size-2 {
-  font-size: 2em;
-}
-
 /* Design Quotes */
 .design-quote {
   background-color: #f7f7f7;
@@ -622,80 +689,6 @@ article .image-container:hover .mobile-image.right {
   text-align: center;
   font-size: 1.5em;
 }
-
-
-
-/* Carousel */
-.page-welcome {
-  height: 700px;
-}
-
-.slider-controls {
-    opacity: 0;
-    padding: 0;
-    margin: 0;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-}
-.slider-controls li {
-    list-style: none;
-}
-#page-welcome:hover .slider-controls {
-    opacity: 1;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-}
-.slider-controls li a {
-    position: absolute;
-    z-index: 10;
-    top: 40%;
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
-}
-.next {
-    background: url("../img/next.png");
-    margin-right: 70px;
-    right: 0;
-    opacity: 0.3;
-}
-.prev {
-    background: url("../img/prev.png");
-    margin-left: 70px;
-    left: 0;
-    opacity: 0.3;
-}
-.next:hover, .prev:hover {
-    opacity: 1;
-}
-
-
-@media(max-width:992px) {
-  #page-about .profile-pic {
-      margin: 0 auto 20px auto;
-  }
-}
-@media (max-width: 479px) {
-  #page-welcome header h1 {
-      font-size: 3.5em;
-  }
-  #page-welcome header p {
-      font-size: 1em;
-      line-height: 3em;
-  }
-
-  #page-skills {
-      text-align: center;
-  }
-  #page-profile .profile {
-      margin: 0 auto 20px auto;
-  }
-}
-
 
 /* Footer */
 footer {
