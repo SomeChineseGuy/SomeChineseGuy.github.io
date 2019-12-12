@@ -205,8 +205,17 @@ hr {
         line-height: 3em;
     }
   }
-  
 
+/* KeyFrames for bubble */
+@keyframes blue-up-down {
+    0% {top: 40%;}
+    30% {top: 60%}
+    60% {top:50%}
+    90% {top:20}
+    100% {top: 40%}
+}
+  
+/* Bubble Container */
 .bubble-container {
     position: relative;
     height: 100%;
@@ -284,10 +293,10 @@ hr {
     
     .red {
         background: #ff837e;
-        height: 90px;
-        width: 90px;
-        left: 75%;
-        top: 25%;
+        height: 120px;
+        width: 120px;
+        left: 15%;
+        top: 73%;
     }
     
     .green {
