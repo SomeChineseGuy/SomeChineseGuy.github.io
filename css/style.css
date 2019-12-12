@@ -163,11 +163,86 @@ hr {
     width: 100%;
 }
 
-/* Contact */
-.contact {
-    background-color: rgb(247, 247, 247);
+/* Main Header */
+.main-header {
+    height: 800px;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    position: relative;
 }
 
+.main-header * {
+    margin: 0;
+}
+
+.personal-info {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -239px;
+    margin-top: -94.5px;
+    z-index: 10;
+}
+
+.bubble-container {
+    position: relative;
+    height: 100%;
+}
+
+.bubble {
+    opacity: .7;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.teal {
+    background: #7FFFD3;
+    height: 300px;
+    width: 300px;
+    left: 20%;
+    border-radius: 38px;
+    top: 10%;
+}
+
+.red {
+    background: #ff837e;
+    height: 180px;
+    width: 180px;
+    left: 75%;
+    top: 25%;
+}
+
+.green {
+    background: #89d793;
+    height: 320px;
+    width: 320px;
+    top: 50%;
+    left: 70%;
+    border-radius: 50px;
+}
+
+.blue {
+    background: #76b9fb;
+    height: 400px;
+    width: 400px;
+    top: 40%;
+    left: 5%;
+}
+
+.gold {
+    background: #beaa7e;
+    height: 245px;
+    width: 245px;
+    top: 40%;
+    left: 40%;
+}   
+
+.grey {
+    background: #393e46;
+    height: 280px;
+    width: 280px;
+    left: 60%;
+    top: 20%;
+}
 
 
 /* Projects  */
@@ -624,6 +699,11 @@ article .image-container:hover .mobile-image.right {
 /* Footer */
 footer {
     background: #f0f0f0;
+}
+
+/* Contact */
+.contact {
+    background-color: rgb(247, 247, 247);
 }
 
 /* Turning off hover effect for tablet and under */
