@@ -17,5 +17,11 @@ $(document).ready(function() {
      $('.hover-button').on('mouseenter mouseleave', function(){
          $('.help').toggleClass('show');
      })
+
+    // All init files
+     new WOW().init();
+     var rellax = new Rellax('.rellax', {
+
+    });
 });
 
