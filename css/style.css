@@ -465,7 +465,7 @@ article .image-container:hover .tablet-image.landscape {
 article .image-container:hover .mobile-image {
     transform: translate(-43%, 34%);
     left: 80%;
-    top: 34.15%;
+    top: 33%;
 }
 
 .mobile-image.landscape {
@@ -634,7 +634,11 @@ article .image-container:hover .mobile-image.right {
 }
 
 #elite .mobile-image.right {
-    top: 27.75%;
+    top: 27.7%;
+}
+
+#elite .image-container:hover .mobile-image.right {
+    top: 33.05%;
 }
 
 @media(max-width:575.98px) {
