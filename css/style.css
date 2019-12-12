@@ -5,6 +5,12 @@ body {
     font-size: 18px;
 }
 
+@media(max-width:575.98px) {
+    body {
+        font-size: 16px;
+    }
+}
+
 h1 {
     text-align: center;
     font-size: 3em;
@@ -340,6 +346,12 @@ article .image-container:hover .mobile-image.right {
     color: #c95f47;
 }
 
+@media(max-width:575.98px) {
+    #nucleus .mobile-image {
+        top: 23.15%;
+    }
+}
+
 /* Riptide */
 #riptide {
     background: #76b9fb;
@@ -370,6 +382,13 @@ article .image-container:hover .mobile-image.right {
     top: 36.25%;
 }
 
+@media(max-width:575.98px) {
+    #riptide .mobile-image {
+        top: 23.15%;
+    }
+}
+
+
 /* Smart Attend */
 #smart-attend {
     background: #89d793;
@@ -386,6 +405,14 @@ article .image-container:hover .mobile-image.right {
 #smart-attend .image-container:hover {
     height: 930px;
 }
+
+
+@media(max-width:575.98px) {
+    #smart-attend .mobile-image {
+        top: 24.25%;
+    }
+}
+
 
 /* Freeport */
 #freeport {
@@ -418,6 +445,12 @@ article .image-container:hover .mobile-image.right {
     }
 }
 
+@media(max-width:575.98px) {
+    #freeport .mobile-image {
+        top: 31.5%;
+    }
+}
+
 
 /* Elite */
 #elite {
@@ -434,6 +467,20 @@ article .image-container:hover .mobile-image.right {
 
 #elite .image-container:hover {
     height: 930px;
+}
+
+#elite .mobile-image.right {
+    top: 27.75%;
+}
+
+@media(max-width:575.98px) {
+    #elite .tablet-image {
+        top: 10%;
+    }
+
+    #elite .mobile-image.right {
+        top: 17.45%;
+    }
 }
 
 /* Profile */
@@ -565,9 +612,6 @@ article .image-container:hover .mobile-image.right {
       line-height: 3em;
   }
 
-  .container p {
-      font-size: 1.2em;
-  }
   #page-skills {
       text-align: center;
   }
