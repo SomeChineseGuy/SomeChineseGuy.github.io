@@ -360,7 +360,7 @@ article .image-container:hover .desktop-image {
     height: auto;
     position: absolute;
     left: 0%;
-    top: 15%;
+    top: 13.5%;
     transition: transform 1.5s ease;
 }
 
@@ -385,7 +385,7 @@ article .image-container:hover .mobile-image {
 
 .mobile-image.right {
     left: 74%;
-    top: 28.25%;
+    top: 26.7%;
 }
 
 article .image-container:hover .mobile-image.right {
@@ -582,8 +582,9 @@ article .image-container:hover .mobile-image.right {
 }
 
 #elite .mobile-image.right {
-    top: 27.7%;
+    top: 26.7%;
 }
+
 
 #elite .image-container:hover .mobile-image.right {
     top: 33.05%;
