@@ -8,9 +8,9 @@ $(document).ready(function() {
         $('.image-container').toggleClass('hover-off');
         $('.help').toggleClass('hide')
         if($(this).hasClass('turned-off')) {
-            $(this).text('Hover Off').toggleClass('turned-off');
+            $(this).toggleClass('turned-off');
         } else {
-            $(this).text('Hover On').toggleClass('turned-off');
+            $(this).toggleClass('turned-off');
         }
     })
 

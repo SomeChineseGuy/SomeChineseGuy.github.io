@@ -27,20 +27,11 @@ h1 {
 
 
 /* Spacers */
-.space {
-    width: 45px;
-    height: 2px;
-    margin: 25px auto 15px auto;
-    background-color: #7FFFD3;
-    padding: auto;
-}
-
 .space-2 {
     width: 100px;
     height: 2px;
     margin: 25px auto 30px auto;
-    background-color: #7FFFD3;
-    padding: auto;
+    background-color: #40c094;
 }
 
 hr {
@@ -91,70 +82,7 @@ hr {
     background-color: white;
 }
 
-.hover-button {
-    position: absolute;
-    top: 10%;
-    left: 80%;
-    background: #ec5252;
-    padding: 1rem 2rem;
-    border-radius: 7px;
-    color: white;
-    cursor: pointer;
-}
 
-.hover-button:hover {
-    background: #d47d7d;
-}
-
-.hover-button.turned-off {
-    background: #5dcd5d;
-}
-
-.hover-button.turned-off:hover {
-    background: #55a655;
-}
-
-.help {
-    position: absolute;
-    width: 16%;
-    padding: 1rem 2rem;
-    left: 77%;
-    top: 150%;
-    color: white;
-    background: #c151c1;
-    border-radius: 7px;
-    display: none;
-    font-size: 12px;
-}
-
-.help:after {
-    content: '';
-	position: absolute;
-	top: 0;
-	left: 50%;
-	width: 0;
-	height: 0;
-	border: 20px solid transparent;
-	border-bottom-color: #c151c1;
-	border-top: 0;
-	border-left: 0;
-	margin-left: -10px;
-	margin-top: -20px;
-}
-
-.help.show {
-    display: block;
-}
-
-.help.hide {
-    display: none !important;
-}
-
-@media(max-width:800px) {
-    .hover-button {
-        display: none;
-    }
-}
 
 /* Main Home */
 .home-page {
@@ -667,6 +595,12 @@ article .image-container:hover .mobile-image.right {
     display: grid;
 }
 
+@media(max-width:767.98px){
+    .profile {
+        padding: 4rem 0;
+    }
+}
+
 .profile h2 {
     padding-bottom: 1rem;
 }
@@ -706,6 +640,43 @@ article .image-container:hover .mobile-image.right {
 /* Footer */
 footer {
     background: #f0f0f0;
+    position: relative;
+}
+
+.help {
+    position: absolute;
+    width: 240px;
+    padding: 1rem 2rem;
+    left: 38%;
+    top: 66%;
+    color: white;
+    background: #c151c1;
+    border-radius: 7px;
+    font-size: 12px;
+    display: none;
+}
+
+.hover-button {
+    top: 10%;
+    left: 80%;
+    border-radius: 7px;
+    color: black;
+    cursor: pointer;
+}
+
+@media(max-width:800px) {
+    .hover-button {
+        pointer-events: none;
+    }
+}
+
+
+.help.show {
+    display: block;
+}
+
+.help.hide {
+    display: none !important;
 }
 
 /* Contact */
