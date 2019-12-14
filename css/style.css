@@ -368,13 +368,6 @@ article .image-container:hover .tablet-image {
     transform: translate(48%, 77%);
 }
 
-.tablet-image.landscape {
-    
-    left: 11%;
-    top: 20.9%;
-    transition: transform 1.5s ease;
-}
-
 .mobile-image {
     height: auto;
     width: 25%;
