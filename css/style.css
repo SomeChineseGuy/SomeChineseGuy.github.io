@@ -427,6 +427,10 @@ article .image-container:hover .mobile-image.right {
 }
 
 @media(max-width:575.98px) {
+    #nucleus .tablet-image {
+        top: 25.2%;
+    }
+
     #nucleus .mobile-image {
         top: 23.15%;
     }
@@ -471,7 +475,7 @@ article .image-container:hover .mobile-image.right {
 
 @media(max-width:575.98px) {
     #riptide .mobile-image {
-        top: 23.15%;
+        top: 26.6%;
     }
 }
 
@@ -542,6 +546,12 @@ article .image-container:hover .mobile-image.right {
 @media(max-width:575.98px) {
     #freeport .mobile-image {
         top: 39%;
+    }
+}
+
+@media(max-width:500px) {
+    #freeport .mobile-image {
+        top: 34%;
     }
 }
 
