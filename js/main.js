@@ -6,17 +6,13 @@ $(document).ready(function() {
 
     $('.hover-button').click(function(){
         $('.image-container').toggleClass('hover-off');
-        $('.help').toggleClass('hide')
+        $('.help').toggleClass('show');
         if($(this).hasClass('turned-off')) {
             $(this).toggleClass('turned-off');
         } else {
             $(this).toggleClass('turned-off');
         }
     })
-
-     $('.hover-button').on('mouseenter mouseleave', function(){
-         $('.help').toggleClass('show');
-     })
 
     // All init files
      new WOW().init();

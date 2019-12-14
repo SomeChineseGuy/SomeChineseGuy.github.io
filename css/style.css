@@ -685,7 +685,7 @@ footer {
 }
 
 /* Turning off hover effect for tablet and under */
-@media(max-width:800px) {
+@media(max-width:900px) {
     .image-container {
         pointer-events: none;
     }
