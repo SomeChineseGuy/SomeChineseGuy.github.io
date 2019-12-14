@@ -473,9 +473,13 @@ article .image-container:hover .mobile-image.right {
     top: 36.25%;
 }
 
-@media(max-width:575.98px) {
+@media(max-width:500px) {
+    #riptide .tablet-image {
+        top: 25.7%;
+    }
+
     #riptide .mobile-image {
-        top: 26.6%;
+        top: 23.15%;
     }
 }
 
