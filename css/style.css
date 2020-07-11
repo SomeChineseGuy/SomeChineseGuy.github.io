@@ -717,3 +717,8 @@ footer {
         pointer-events: none;
     }
 }
+
+.test {
+    display: flex;
+    overflow-x: scroll;
+}
